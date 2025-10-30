@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import heroImage from './assets/vinceako.png'
+import heroImage from './assets/wew.png'
 import './App.css'
 
 function App() {
@@ -94,12 +94,13 @@ function App() {
                 HELLO I'M
               </div>
               <h1 className="hero-name">
-                Vince Collin<br />
-                Panes
-                <span className="title-badge">Networking Engineer</span>
+                Justin<br />
+                Chua
+                <span className="title-badge">UI/UX Design</span>
               </h1>
               <p className="hero-description">
-              Networking refers to the practice of connecting computers, servers, and other devices to share resources, exchange data, and communicate efficiently.
+              Expert in UI/UX Design, creating visually stunning and user-friendly web app. More on designing and building a better UI on your web application.
+                      "Better believe what you see and the world will imagined as you see it".
               </p>
               <div className="hero-buttons">
                 <button className="hire-btn" onClick={handleHireMeClick}>Hire Me Now</button>
@@ -111,16 +112,16 @@ function App() {
                 </button>
               </div>
               <div className="social-links">
-                <a href="https://web.facebook.com/vincecollinelchico.panes" target="_blank" rel="noopener noreferrer" className="social-link">
+                <a href="https://web.facebook.com/yiyue.chwa/" target="_blank" rel="noopener noreferrer" className="social-link">
                   <i className="fab fa-facebook-f"></i>
                 </a>
-                <a href="https://www.instagram.com/vnc_clln/?hl=en" target="_blank" rel="noopener noreferrer" className="social-link">
+                <a href="https://www.instagram.com/jstn.kaede/" target="_blank" rel="noopener noreferrer" className="social-link">
                   <i className="fab fa-instagram"></i>
                 </a>
               </div>
             </div>
             <div className="hero-image">
-              <img src={heroImage} alt="Vince Collin Panes - Networking Engineer" />
+              <img src={heroImage} alt="Justin Chua - UI/UX Designer" />
             </div>
           </section>
         );
@@ -128,16 +129,16 @@ function App() {
         return (
           <section className="about-section">
             <h2 className="section-title">ABOUT ME</h2>
-            <h3 className="about-subtitle">Why Do You Hire Me For Your Next Networking Engineer Project?</h3>
+            <h3 className="about-subtitle">Why Do You Hire Me For Your UI/UX Designer?</h3>
             <div className="about-content">
               <p>
-              I'm a passionate and dedicated IT student with hands-on experience in networking.
+              I'm a passionate and dedicated IT student with hands-on experience in UI/UX Designing.
               </p>
               <p>
-              I've worked with various networking concepts such as IP addressing, subnetting, routing, switching, and network troubleshooting.
+              I've worked with various design concepts such as pixel perfect editing, correct color scheme and web designing .
               </p>
               <p>
-              I'm familiar with configuring Cisco devices and have experience using tools like Wireshark and Packet Tracer to simulate and analyze network environments.
+              I'm familiar with FIGMA and have experience using it and making a new heights in design.
               </p>
               <div className="about-buttons">
                 <button className="hire-btn" onClick={handleHireMeClick}>Hire Me Now</button>
@@ -156,11 +157,11 @@ function App() {
           <section className="services-section">
             <h2 className="section-title">MY SERVICES</h2>
             <div className="services-grid">
-              <div className="service-item">DHCP</div>
-              <div className="service-item">DNS</div>
-              <div className="service-item">File Sharing Service</div>
-              <div className="service-item">Email Services</div>
-              <div className="service-item">Network Security Services</div>
+              <div className="service-item">Web App Design</div>
+              <div className="service-item">UI editing</div>
+              <div className="service-item">Web System</div>
+              <div className="service-item">Design Services</div>
+              <div className="service-item">App subtle art</div>
               
               
             </div>
@@ -169,17 +170,17 @@ function App() {
       case 'work':
         return (
           <section className="work-section">
-            <h2 className="section-title">My Work</h2>
+            <h2 className="section-title">MY WORK</h2>
             <div className="projects-grid">
               <div className="project-card">
                 <div className="project-image">
-                  <img src="/dynamic.png" alt="Network Topology Design" />
+                  <img src="/carsada.png" alt="Carsada" />
                   <div className="project-overlay">
-                    <h3>Network Topology Design</h3>
+                    <h3>Carsada</h3>
                     <p className="project-description">
-                      Complex network infrastructure design using Cisco Packet Tracer. Features VLAN configuration, routing protocols, and secure network architecture.
+                      The best jeepney router system app.
                     </p>
-                    <a href="/dynamic.png" target="_blank" rel="noopener noreferrer" className="live-preview-btn">
+                    <a href="/carsada.png" target="_blank" rel="noopener noreferrer" className="live-preview-btn">
                       View Design
                     </a>
                   </div>
@@ -187,20 +188,18 @@ function App() {
               </div>
               <div className="project-card">
                 <div className="project-image">
-                  <img src="/vlan.png" alt="Network Topology Design 2" />
+                  <img src="/medipain.png" alt="Medipain" />
                   <div className="project-overlay">
-                    <h3>Network Topology Design 2</h3>
+                    <h3>Medipain</h3>
                     <p className="project-description">
-                      Advanced network topology featuring router-to-router communication, multiple switches, and PC endpoints. Implemented with Cisco Packet Tracer for optimal network performance.
+                      Medical pain tracking and management web app UI.
                     </p>
-                    <a href="/vlan.png" target="_blank" rel="noopener noreferrer" className="live-preview-btn">
+                    <a href="/medipain.png" target="_blank" rel="noopener noreferrer" className="live-preview-btn">
                       View Design
                     </a>
                   </div>
                 </div>
-              
-                </div>
-            
+              </div>
             </div>
           </section>
         );
@@ -264,12 +263,12 @@ function App() {
               </p>
             )}
             <div className="social-links-contact">
-              <a href="https://www.instagram.com/vnc_clln/?hl=en" target="_blank" rel="noopener noreferrer" className="social-link">
+              <a href="https://www.instagram.com/jstn.kaede/" target="_blank" rel="noopener noreferrer" className="social-link">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
                   <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
                 </svg>
               </a>
-              <a href="https://web.facebook.com/vincecollinelchico.panes" target="_blank" rel="noopener noreferrer" className="social-link">
+              <a href="https://web.facebook.com/yiyue.chwa/" target="_blank" rel="noopener noreferrer" className="social-link">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
                   <path d="M9.101 23.691v-7.98H6.627v-3.667h2.474v-1.58c0-4.085 1.848-5.978 5.858-5.978.401 0 .955.042 1.468.103a8.68 8.68 0 0 1 1.141.195v3.325a8.623 8.623 0 0 0-.653-.036 26.805 26.805 0 0 0-.733-.009c-.707 0-1.259.096-1.675.309a1.686 1.686 0 0 0-.679.622c-.258.42-.374.995-.374 1.752v1.297h3.919l-.386 2.103-.287 1.564h-3.246v8.245C19.396 23.238 24 18.179 24 12.044c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.628 3.874 10.35 9.101 11.647Z"/>
                 </svg>
@@ -286,7 +285,7 @@ function App() {
     <div className="app">
       <header className="header">
         <div className="logo" onClick={() => setActiveSection('home')} style={{ cursor: 'pointer' }}>
-          Vince
+          Justin
         </div>
         <nav className="navbar">
           <button 
